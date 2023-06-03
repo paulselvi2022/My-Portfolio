@@ -1,0 +1,219 @@
+*{
+box-sizing: border-box;
+}
+.header{
+    background-color: #4C4C6D;
+    display: flex;
+    flex-direction: row;
+    color:whitesmoke; 
+    padding:10px 10px 10px 10px;  
+}
+.header .logo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+       
+}
+#imglogo{
+    border-radius:50% ;
+    background-color: whitesmoke;
+        
+}
+.header p{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 70px;
+}
+
+ #unorderedlist{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+   
+}
+#items{
+        padding-right: 30px;
+        padding-top: 10px;
+}
+.lists{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main{
+    background-color: #1B9C85;
+    height:400px;
+    padding-top: 20px;
+    
+}
+#About{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    padding-left:20px;
+    
+}
+#welcome
+{
+    font-size: 30px;
+    color: whitesmoke;
+    
+}
+#myself{
+    font-size: 60px;
+    }
+    #name{
+        color:#4C4C6D;
+        color: whitesmoke;
+    }
+#objective{
+    font-size: 20px;
+    
+}
+.right{
+    padding-left:20px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+
+    
+}
+.button{
+    background-color:#4C4C6D;    
+    color:whitesmoke; 
+    display: inline-block;
+    padding: 0.25rem 1.5rem;   
+    border-radius: 0.5rem;
+    font-size: 30px;
+}
+#My_Skills{
+    background-color: #E3F4F4;
+    padding-left:20px;   
+    padding-bottom: 10px;
+   }
+#My_Skills h1{
+    font-size: 30px;
+    color:navy;
+    padding-left:100px;
+    text-align: center;
+   text-decoration: underline;
+}
+#My_Skills ul{
+    list-style-type: square;
+    font-size: 20px;   
+}
+
+#My_Projects{    
+    background-color: #526D82;
+    display: inline-flexbox;
+    align-items: center;  
+    
+    }
+    
+     #My_Projects h2{
+      font-size: 30px;
+      color: whitesmoke;
+      text-decoration: underline;
+      text-align: center;      
+         }
+#My_Projects img{
+      padding:10px 30px 20px 200px;
+   }
+    
+    #Education{
+        background-color:#FF55BB;
+        padding-bottom: 10px;
+        padding-top: 10px; 
+           }
+        #Education h1{
+           text-align: center;
+           text-decoration: underline;
+           font-size: 30px;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           }
+           #Education li{
+            list-style-type:disc;
+            font-size: 20px;
+           } 
+#Hobbies{
+       background-color: #FCFFB2;  
+       padding-bottom: 10px;  
+       padding-top: 10px;   
+    }
+    #Hobbies h1{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #Hobbies li{
+         list-style-type:disc;
+         font-size: 20px;
+        } 
+    #Contact
+    {
+        background-color: #1B9C85;
+        padding-bottom: 10px;  
+       padding-top: 10px;
+       padding-left: 100px;
+        }
+        #Contact h1{
+            text-align: center;
+            text-decoration: underline;
+            font-size: 30px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            label{
+                font-size: 20px;
+                color: navy ;
+                
+            }
+            #Contact p{
+                font-size: 20px;
+                color: whitesmoke;
+            }
+            
+        .btn{
+            background-color: whitesmoke;
+            
+        }
+#footer{
+    background-color:yellow;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;    
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+#myBtn {    
+    bottom: 20px;
+    cursor: pointer; 
+    right: 30px;
+    position: fixed;
+    outline: none;
+    border: none;      
+    
+  }
+  
+  
